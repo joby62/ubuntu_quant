@@ -11,7 +11,7 @@ echo "全局安装pm2"
 sudo npm install -g pm2@5.2.2
 
 echo "为pm2安装个日志管理"
-pm2 install pm2-logrotatd@2.7.0
+pm2 install pm2-logrotate@2.7.0
 
 echo "下载安装mysql客户端和服务"
 sudo apt install mysql-server
