@@ -5,7 +5,7 @@ APScheduler==3.9.1
 async-timeout==4.0.1
 attrs==21.2.0
 backports.zoneinfo==0.2.1
-ccxt==1.91.20
+ccxt==1.91.1
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.9
