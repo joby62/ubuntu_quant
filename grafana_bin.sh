@@ -67,7 +67,7 @@ pip install -r requirements.txt -i https://mirrors.bfsu.edu.cn/pypi/web/simple
 echo "删除本地无用文件"
 rm -r Miniconda3-py38_4.12.0-Linux-x86_64.sh
 rm -r requirements.txt
-rm -r https://dl.grafana.com/oss/release/grafana_9.4.3_amd64.deb
+rm -r grafana_9.4.3_amd64.deb
 
 echo "查看时区, 请检查是否切换为UTC时间"
 timedatectl
