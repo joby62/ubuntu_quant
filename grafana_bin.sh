@@ -72,5 +72,11 @@ rm -r grafana_9.4.3_amd64.deb
 echo "查看时区, 请检查是否切换为UTC时间"
 timedatectl
 
+echo "clone 企业微信verify项目"
+git clone https://github.com/joby62/wechat_verify.git
+
+echo "clone 数据面板可视化项目"
+git clone https://github.com/joby62/grafana_visual_panel.git
+
 # echo "检查grafana server状态, ctrl+c退出"
 # sudo service grafana-server status
