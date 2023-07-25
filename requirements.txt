@@ -42,6 +42,7 @@ pyarrow==6.0.1
 pycares==4.1.2
 pycryptodome==3.16.0
 pycparser==2.21
+pyecharts==1.9.1
 pyparsing==3.0.6
 python-dateutil==2.8.2
 PyMySQL==1.0.2
