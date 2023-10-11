@@ -38,12 +38,6 @@ conda create -n alpha_admin python==3.8.5
 echo "生效平台所需conda环境"
 conda activate alpha_admin
 
-echo "先安装不容易安装的包"
-conda install -c conda-forge ta-lib==0.4.19
-
-echo "卸载ta-lib附带安装的numpy"
-pip uninstall numpy
-
 echo "下载安装requirements.txt"
 wget -N --no-check-certificate https://raw.githubusercontent.com/joby62/ubuntu_quant/main/requirements.txt
 pip install -r requirements.txt -i https://mirrors.bfsu.edu.cn/pypi/web/simple
