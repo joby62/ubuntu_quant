@@ -55,7 +55,7 @@ echo "生效平台所需conda环境"
 conda activate alpha_admin
 
 echo "先安装不容易安装的包"
-conda install -c conda-forge ta-lib==0.4.19
+conda install -c conda-forge ta-lib==0.4.28
 
 echo "卸载ta-lib附带安装的numpy"
 pip uninstall numpy
