@@ -43,7 +43,7 @@ echo "生效平台所需conda环境"
 conda activate alpha_admin
 
 echo "先安装不容易安装的包"
-conda install -c conda-forge ta-lib==0.4.19
+conda install -c conda-forge ta-lib==0.4.28
 
 echo "卸载ta-lib附带安装的numpy"
 pip uninstall numpy
@@ -55,6 +55,9 @@ pip install -r requirements.txt -i https://mirrors.bfsu.edu.cn/pypi/web/simple
 echo "删除本地无用文件"
 rm -r Miniconda3-py38_4.12.0-Linux-x86_64.sh
 rm -r requirements.txt
+
+echo "clone 数据面板可视化项目"
+git clone https://github.com/joby62/select_coin_swap.git
 
 echo "查看时区, 请检查是否切换为UTC时间"
 timedatectl
