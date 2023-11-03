@@ -50,9 +50,8 @@ echo "删除本地无用文件"
 rm -r Miniconda3-py38_4.12.0-Linux-x86_64.sh
 rm -r requirements.txt
 
-echo "clone 数据面板可视化项目"
+echo "clone 期货选币项目"
 git clone https://github.com/joby62/select_coin_swap.git
-git clone https://github.com/joby62/select_coin_spot.git
 
 echo "查看时区, 请检查是否切换为UTC时间"
 timedatectl
